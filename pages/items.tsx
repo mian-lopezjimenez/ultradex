@@ -1,6 +1,6 @@
-import React from "react";
+import { NextPage } from "next";
 
-const Items = () => {
+const Items: NextPage = () => {
   return <div>Items</div>;
 };
 
