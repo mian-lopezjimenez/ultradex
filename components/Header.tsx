@@ -1,5 +1,6 @@
 import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 import useTheme from "../hooks/useTheme";
 
 const Header = () => {
@@ -41,7 +42,11 @@ const Header = () => {
           </ul>
         </div>
         <div className="btn btn-ghost normal-case text-xl">
-          <Link href="/">UltraDEX</Link>
+          <Link href="/">
+            <div className="flex items-center justify-center gap-x-1">
+              UltraDEX <Image src="/UltraDEX.svg" height="32" width="32" />
+            </div>
+          </Link>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
