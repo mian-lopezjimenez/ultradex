@@ -14,9 +14,9 @@ const Layout = ({ children, title = "" }: Props) => {
   return (
     <div className="flex flex-col" data-theme={darkMode ? "dark" : "light"}>
       <Head>
-        <title>UltraDEX {title ? `- ${title}` : ""}</title>
+        <title>{title ? `Ultradex - ${title}` : "UltraDEX"}</title>
         <meta name="description" content="The definitive Pokedex" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/UltraDEX.png" />
       </Head>
       <Header />
       <main className="min-h-screen p-5 flex justify-center align-middle">
