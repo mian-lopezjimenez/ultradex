@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Pokemon } from "pokenode-ts";
 import padLeadingZeros from "../utils/padLeadingZeros";
 import capitalizeFirstLetter from "../utils/capitalizeFirstLetter";
@@ -35,9 +36,10 @@ const PokemonCard = ({ pokemon }: Props) => {
             src={
               pokemon.sprites.other?.["official-artwork"].front_default ||
               pokemon.sprites.front_default ||
-              ""
+              "./interrogant.png"
             }
             loading="lazy"
+            alt={name}
           />
         </figure>
         <div className="w-full h-[40%] rounded-t-3xl rounded-b-xl"></div>
