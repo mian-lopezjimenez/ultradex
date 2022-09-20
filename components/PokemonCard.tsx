@@ -18,7 +18,7 @@ const PokemonCard = ({ pokemon }: Props) => {
   return (
     <Link href="/">
       <div
-        className={`h-[400px] rounded-xl flex justify-center items-center flex-col gap-y-3 ${colors[typeColor]} cursor-pointer`}
+        className={`h-[400px] rounded-xl flex justify-center items-center flex-col gap-y-3 ${colors[typeColor]}`}
       >
         <div className="w-full h-[60%]">
           <div className="flex justify-between items-center p-5">
