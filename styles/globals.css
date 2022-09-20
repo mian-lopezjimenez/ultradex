@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --fire: #f5ac78;
+  --grass: #a7db8d;
+  --water: #9db7f5;
+  --bug: #c6d16e;
+  --normal: #c6c6a7;
+  --poison: #c183c1;
+  --electric: #fae078;
+  --ground: #ebd69d;
+  --fairy: #f4bdc9;
+  --fighting: #d67873;
+  --psychic: #fa92b2;
+  --rock: #d1c17d;
+  --ghost: #a292bc;
+  --ice: #bce6e6;
+  --dragon: #a27dfa;
+  --dark: #52494c;
+  --steel: #d1d1e0;
+  --flying: #a890f0;
+}
